@@ -1,0 +1,13 @@
+@use "variable.scss" as var;
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background: var.$base-color;
+    color: var.$font-main;
+    margin: 8px;
+    cursor: default;
+}
+
+#wrapper {
+    display: flex;
+}

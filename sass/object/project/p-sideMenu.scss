@@ -1,0 +1,57 @@
+@use "../../foundation/variable.scss" as var;
+
+.p-sideMenu {
+    &__list {
+        position: sticky;
+        top: 150px;
+
+        &__logo {
+            img {
+                width: 55%;
+                transition: all 0.4s ease-out;
+                opacity: 1;
+
+                &:hover {
+                    transition: all 0.2s ease-in;
+                    opacity: 0.5;
+                }
+            }
+
+        }
+
+        nav {
+            ul {
+                margin-top: 24px;
+
+                li {
+                    padding: 24px 0;
+                    font-size: 14px;
+                    font-weight: 100;
+                    color: var.$font-sub;
+
+                    &:last-of-type {
+                        padding-top: 20px;
+                    }
+
+                    a {
+                        transition: all 0.4s ease-out;
+                        opacity: 1;
+
+                        &:hover {
+                            transition: all 0.2s ease-in;
+                            opacity: 0.5;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        &__sns {
+            img {
+                width: 12%;
+            }
+
+        }
+    }
+}

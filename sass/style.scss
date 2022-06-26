@@ -1,0 +1,42 @@
+//foundation//
+@use "foundation/reset.scss";
+@use "foundation/base.scss";
+@use "foundation/variable.scss";
+@use "foundation/mixin.scss";
+
+
+//layout//
+@use "layout/l-sideMenu.scss";
+@use "layout/main.scss";
+@use "layout/l-hero.scss";
+@use "layout/l-news.scss";
+@use "layout/l-productTop.scss";
+@use "layout/l-slid.scss";
+@use "layout/l-brand.scss";
+@use "layout/l-privacy.scss";
+@use "layout/l-product.scss";
+@use "layout/l-about.scss";
+@use "layout/l-contact.scss";
+@use "layout/l-goods.scss";
+@use "layout/l-newsInfo.scss";
+
+
+//object//
+
+//component
+@use "object/component/hover_anime.scss";
+@use "object/component/bf-animation.scss";
+@use "object/component/pageLoading.scss";
+@use "object/component/topLoading.scss";
+
+//project
+@use "object/project/p-sideMenu.scss";
+@use "object/project/p-productList.scss";
+@use "object/project/p-goodsInfo.scss";
+@use "object/project/p-latestNews.scss";
+@use "object/project/p-newsInfo.scss";
+
+//utility
+@use "object/utility/center.scss";
+@use "object/utility/heading.scss";
+@use "object/utility/sp-indent.scss";

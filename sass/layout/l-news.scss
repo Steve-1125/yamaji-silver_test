@@ -1,0 +1,38 @@
+.l-news {
+    h2 {
+        margin-top: 120px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        margin: 50px 0 120px 0;
+        width: 100%;
+
+        li {
+            width: 20%;
+
+            &:not(:nth-of-type(3)) {
+                margin-right: 50px;
+            }
+
+            img {
+                width: 100%;
+                transition: all 0.4s ease-out;
+                opacity: 1;
+
+                &:hover {
+                    transition: all 0.3s ease-in;
+                    opacity: 0.5;
+                }
+            }
+
+            p {
+                text-align: left;
+                font-size: 10px;
+                line-height: 15px;
+                margin-top: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+@use "../../foundation/variable.scss" as var;
+
+.p-product__list {
+    display: flex;
+    margin-bottom: 6%;
+    justify-content: center;
+
+    li {
+        margin-right: 3%;
+        width: 30%;
+        position: relative;
+
+        &:nth-of-type(3) {
+            margin-right: 0;
+        }
+
+        img {
+            width: 100%;
+            transition: all 0.5s;
+            opacity: 1;
+
+            &:hover {
+                transition: all 0.5s;
+                opacity: 0.6;
+            }
+        }
+
+        span {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: var.$hover_color;
+            opacity: 0;
+            transition: all 0.5s;
+
+            &:hover {
+                opacity: 0.4;
+                transition: all 0.5s;
+            }
+
+            p {
+                position: relative;
+                z-index: 3;
+                color: var.$hover_txt;
+                top: 25%;
+            }
+        }
+    }
+}

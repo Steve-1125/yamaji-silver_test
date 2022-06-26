@@ -1,0 +1,15 @@
+.topLoading {
+    width: 100vw;
+    height: 100vh;
+    max-height: 1080px;
+    background-color: #fbfbfb;
+    position: relative;
+
+
+    img {
+        display: block;
+        position: absolute;
+        top: -60px;
+    }
+
+}

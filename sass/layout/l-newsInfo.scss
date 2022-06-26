@@ -1,0 +1,16 @@
+@use "../foundation/variable.scss" as var;
+
+.l-newsInfo {
+    margin-left: 15%;
+
+    h3 {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    p {
+        text-align: left;
+        color: var.$font-main;
+        margin-top: 10px;
+    }
+}

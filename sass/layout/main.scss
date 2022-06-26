@@ -1,0 +1,6 @@
+@use "../foundation/variable.scss" as var;
+
+main {
+    width: 80%;
+    border-left: 1px solid var.$border-top;
+}

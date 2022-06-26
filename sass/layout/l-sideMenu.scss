@@ -1,0 +1,11 @@
+@use "../foundation/variable.scss" as var;
+
+#l-sideMenu {
+    width: 20%;
+    position: relative;
+    z-index: 2;
+}
+
+.l-sideMenu {
+    padding-top: 140px;
+}

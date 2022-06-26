@@ -1,0 +1,29 @@
+@use "../foundation/variable.scss" as var;
+
+.l-about {
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    &__container {
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 50%;
+
+            li {
+                p {
+                    color: var.$mail-color;
+                    font-size: 90%;
+                }
+
+                &:last-of-type {
+                    width: 20%;
+                }
+            }
+        }
+    }
+}

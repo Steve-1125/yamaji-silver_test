@@ -1,0 +1,30 @@
+.l-brand {
+    ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+            width: 28%;
+            text-align: left;
+
+            &:nth-of-type(1) {
+                margin-right: 12%;
+
+                img {
+                    width: 100%;
+                }
+
+                p {
+                    display: block;
+                    margin-top: 10px;
+                }
+            }
+
+            &:nth-of-type(2) {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
